@@ -2,16 +2,30 @@ body {
     margin: 0;
 }
 
-header {
-    width: 100vw;
-    height: 200px;
-    background-color:pink;
-    margin: 0;
+.logo {
+    width: 450px;
+    height: 160px;
+    background-color: black;
+}
+
+.logo > img {
+    width:  350px;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    padding-right: 15%;
 }
 
 nav {
+    width: 100vw;
+    height: 160px;
     text-align: right;
     background-color: yellow;
+}
+
+.links {
+    margin-top: -90px;
+    margin-bottom: -30px;
+    height: 20px;
 }
 
 ul {
