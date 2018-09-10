@@ -74,7 +74,18 @@ p {
     border: 1px solid red;
 }
 
-.instagram > img {
+.instalink > a {
+    color: black;
+    text-align: center;
+    margin: 5% 25%;
+}
+
+a > img {
+    height: 100px;
+    width: 75px;
+}
+
+.instaimages > img {
     height: 280px;
     width: 200px;
     margin: 2% 1% 0% 1.5%;
