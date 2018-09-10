@@ -54,8 +54,8 @@ a:hover {
     float: left;
     margin-top: 4%;
     margin-left: 4%;
-    width: 42%;
-    height: 450px;
+    width: 45%;
+    height: 900px;
     border: 1px solid red;
 }
 
@@ -69,9 +69,15 @@ p {
     float: right;
     margin-top: 4%;
     margin-right: 4%;
-    width: 42%;
-    height: 450px;
+    width: 45%;
+    height: 1000px;
     border: 1px solid red;
+}
+
+.instagram > img {
+    height: 280px;
+    width: 200px;
+    margin: 2% 1% 0% 1.5%;
 }
 
 .book {
