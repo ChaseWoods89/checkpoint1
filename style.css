@@ -5,34 +5,47 @@ body {
 .logo {
     width: 450px;
     height: 160px;
-    background-color: black;
 }
 
 .logo > img {
     width:  350px;
     height: auto;
-    margin: 5px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
     padding-right: 15%;
 }
 
 nav {
     width: 100vw;
-    height: 160px;
+    height: 220px;
     text-align: right;
-    background-color: yellow;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(./Images/allsaints-header.png);
 }
 
 .links {
-    margin-top: -90px;
+    margin-top: -80px;
     margin-bottom: -30px;
     height: 20px;
 }
 
 ul {
     list-style: none;
+    padding-right: 50px;
 }
 
 li {
     display: inline;
     padding: 1%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+}
+
+a:hover {
+    text-decoration: underline;
 }
