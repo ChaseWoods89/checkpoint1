@@ -152,3 +152,13 @@ footer > p {
 footer > p > strong {
     color: #8B53B7;
 }
+
+.sociallinks {
+    float: right;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+
+.sociallinks > a {
+    margin: 0px 10px;
+}
